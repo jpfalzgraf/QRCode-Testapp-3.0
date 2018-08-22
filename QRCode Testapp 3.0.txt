@@ -1,0 +1,66 @@
+//
+//  QRCode Testapp 3.0
+//
+//  Created by Johann Pfalzgraf on 16.08.18.
+//  Copyright © 2018 Johann Pfalzgraf. All rights reserved.
+//
+
+
+
+0. Allgemeine Änderungen/Verbesserungen
+
+	* Weitere anpassungen von UI
+	* Suche nach Lösungen für Memory Stack
+	* 3D Modelle
+	* Assets - icons 
+	* Thema Backup/Versionierung (momentan einfach auf die Festplatte CTRL C, andere möglichkeiten einlesen Xcode/ Github)
+	* webrtc (gucken ob es beim iOS geht)
+1. Main.Storyboard User Interface
+
+
+
+
+
+
+
+2. AppDelegate.swift
+
+
+
+
+
+
+
+3. Info.plist
+
+
+
+
+
+
+
+4. QRCodeViewController.swift
+
+
+
+
+
+
+
+5. QRScannerController.swift
+
+Memory Stacks: beim erneuten Scannen stackt Memory bis man die app beendet.
+
+
+6. ViewController.swift
+
+
+
+
+
+
+7. Assets (xcassets & scnassest)
+
+	* wir brauchen weitere 3D Modelle im .dae Format (anderes Format geht unter umständen auch, muss dann für Xcode angepasst werden)
+
+	* icons für die App, verschiedene Formate je nach ansicht, es gibt einige Free Tools, die werden  zwischendurch unter die Lupe genommen.
