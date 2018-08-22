@@ -16,7 +16,6 @@ class QRScannerController: UIViewController {
     @IBOutlet weak var btnNavToModel: UIBarButtonItem!
     @IBOutlet var statusLabel: UILabel!
     
-    
     var captureSession: AVCaptureSession!
     var videoPreviewLayer: AVCaptureVideoPreviewLayer?
     var qrCodeFrameView: UIView?
